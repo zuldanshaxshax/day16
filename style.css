@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box1{
+    background-color: rgb(178, 178, 178);
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+.box1 img{
+  margin-left: 68px;
+  margin-top: 18px;
+}
+.box1 h1{
+    margin-left: 0px;
+    font-size: 1.5em;
+    text-align: center;
+   
+  }
+
+.container-1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    justify-content: center;
+   margin-top: 30px;
+    height: 500px;
+}
+.qoral{
+    margin: 20px;
+    text-align: center;
+}
+.qoral h1 {
+    font-size: 4em;
+    color: black;
+    text-align: center;
+}
+
+.qoral p{
+    margin-top: -40px;
+    font-size: 1em;
+    color: black;
+}
